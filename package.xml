@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rdj2025_rqt_camera</name>
+  <version>0.0.1</version>
+  <description>rqt camera plugin: display camera, snapshot, record and publish frames to /image</description>
+  <maintainer email="you@example.com">You</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>rqt_gui_py</depend>
+  <depend>python_qt_binding</depend>
+
+  <exec_depend>python3-opencv</exec_depend>
+</package>

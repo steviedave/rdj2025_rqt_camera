@@ -1,0 +1,7 @@
+<library path="rdj2025_rqt_camera.camera_plugin">
+  <class name="rdj2025_rqt_camera.CameraPlugin"
+         type="rdj2025_rqt_camera.camera_plugin.CameraPlugin"
+         base_class_type="rqt_gui_py::Plugin">
+    <description>RDJ camera plugin</description>
+  </class>
+</library>
